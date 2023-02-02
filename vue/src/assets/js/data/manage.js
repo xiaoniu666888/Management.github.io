@@ -1,0 +1,57 @@
+// 权限数据
+export const data=[{
+    label:"个人中心",
+    id:'1'
+},
+{
+    label:"学员",
+    id:'2',
+    children:[{
+        label:"学员管理",
+        name:2,
+        id:"2-1"
+    },
+    {
+        label:"导入学员",
+        name:2,
+        id:"2-2"
+    }]
+},
+{
+    label:"课程",
+    id:'3',
+    children:[{
+        label:"课程管理",
+        name:3,
+        id:"3-1"
+    },
+    {
+        label:"个人课程",
+        name:3,
+        id:"3-2"
+    }]
+},
+{
+    label:"文章",
+    id:'4',
+},
+{
+    label:"管理权限",
+    id:'5',
+    children:[{
+        label:"账号权限",
+        name:3,
+        id:"5-1"
+    },
+    {
+        label:"账号管理",
+        name:3,
+        id:"5-2"
+    }]
+},
+{
+    label:"查看日报",
+    id:'6',
+}
+
+]
